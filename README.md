@@ -34,7 +34,7 @@ The project includes unit tests for all Calculator methods:
 
 ### Prerequisites
 
-- Java JDK 11 or higher
+- Java JDK 23 or higher
 - Maven 3.6 or higher
 - IDE (IntelliJ IDEA, Eclipse, or VS Code recommended)
 
@@ -51,6 +51,7 @@ cd JUnit-UnitTest-Example
 ```bash
 mvn install:install-file -Dfile=path/to/Calculator-1.0.jar -DgroupId=com.epam.tat.module4 -DartifactId=calculator -Dversion=1.0 -Dpackaging=jar
 ```
+If uing IntelliJ IDEA Go to File > Project Structure > Modules > + add JAR or Directory > select the Calculator-1.0.jar > Apply
 
 3. Build the project:
 ```bash
@@ -106,7 +107,8 @@ Each Calculator method has its own dedicated test class, following the Single Re
 
 - Generated test reports surefire
 
-![surefire-report](https://github.com/user-attachments/assets/ac06a960-2170-43e1-86ad-09bab9ec4272)
+![Surefire-report](https://github.com/user-attachments/assets/5a296ccc-9d52-41ae-aa34-cc8e70e7518b)
+
 
 
 ## 📝 Notes
