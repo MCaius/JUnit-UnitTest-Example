@@ -43,7 +43,7 @@ The project includes unit tests for all Calculator methods:
 1. Clone the repository:
 ```bash
 git clone https://github.com/MCaius/JUnit-UnitTest-Example.git
-cd 
+cd JUnit-UnitTest-Example
 ```
 
 2. Make sure you have the Calculator-1.0.jar in your local Maven repository. If not, you'll need to install it:
@@ -68,7 +68,7 @@ mvn test
 ```bash
 mvn surefire-report:report
 ```
-The report will be generated in `target/site/surefire-report.html`
+The report will be generated in `target/reports/surefire.html`
 
 ## 📊 Test Structure
 
@@ -98,14 +98,22 @@ Each Calculator method has its own dedicated test class, following the Single Re
 
 ## 📸 Screenshots
 
-[Add your screenshots here]
-- Test execution results
-- Generated test reports
+- Test execution results from IDE
+
+![tests-1](https://github.com/user-attachments/assets/b9f88b8c-81bc-44af-9224-c7218fbaa75c)
+
+![tests-2](https://github.com/user-attachments/assets/6c5879ad-f0aa-4b0c-b660-28960bdfec0c)
+
+- Generated test reports surefire
+
+![surefire-report](https://github.com/user-attachments/assets/ac06a960-2170-43e1-86ad-09bab9ec4272)
+
 
 ## 📝 Notes
 
-- The project uses JUnit 5.10.0
+- Some tests do fail to showcase the improper implementation of methods in the Calculator class from the source file Calculator-1.0.jar file.
 - Tests are configured to run in parallel for better performance
 - The Calculator-1.0.jar is required as a test dependency (This file is not provided)
 - All test classes follow a consistent structure with proper setup and teardown methods
+
 
